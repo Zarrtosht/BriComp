@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class SteelGeom_form
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class SteelGeom_form
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.tbName = New System.Windows.Forms.TextBox()
         Me.btnAddSteelGeom = New System.Windows.Forms.Button()
@@ -59,24 +59,30 @@ Partial Class SteelGeom_form
         '
         'btnAddSteelGeom
         '
+        Me.btnAddSteelGeom.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnAddSteelGeom.Location = New System.Drawing.Point(451, 566)
         Me.btnAddSteelGeom.Name = "btnAddSteelGeom"
-        Me.btnAddSteelGeom.Size = New System.Drawing.Size(75, 23)
+        Me.btnAddSteelGeom.Size = New System.Drawing.Size(75, 31)
         Me.btnAddSteelGeom.TabIndex = 2
         Me.btnAddSteelGeom.Text = "Add"
         Me.btnAddSteelGeom.UseVisualStyleBackColor = True
         '
         'btnCancelSteelGeom
         '
+        Me.btnCancelSteelGeom.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnCancelSteelGeom.Location = New System.Drawing.Point(613, 566)
         Me.btnCancelSteelGeom.Name = "btnCancelSteelGeom"
-        Me.btnCancelSteelGeom.Size = New System.Drawing.Size(75, 23)
+        Me.btnCancelSteelGeom.Size = New System.Drawing.Size(75, 31)
         Me.btnCancelSteelGeom.TabIndex = 3
         Me.btnCancelSteelGeom.Text = "Cancel"
         Me.btnCancelSteelGeom.UseVisualStyleBackColor = True
         '
         'grpPrevSteelGeom
         '
+        Me.grpPrevSteelGeom.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.grpPrevSteelGeom.BackColor = System.Drawing.Color.Transparent
         Me.grpPrevSteelGeom.Location = New System.Drawing.Point(237, 9)
         Me.grpPrevSteelGeom.Name = "grpPrevSteelGeom"
         Me.grpPrevSteelGeom.Size = New System.Drawing.Size(451, 551)
@@ -86,6 +92,8 @@ Partial Class SteelGeom_form
         '
         'grpSteelConst
         '
+        Me.grpSteelConst.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.grpSteelConst.Controls.Add(Me.tbConst)
         Me.grpSteelConst.Location = New System.Drawing.Point(15, 272)
         Me.grpSteelConst.Name = "grpSteelConst"
@@ -96,11 +104,16 @@ Partial Class SteelGeom_form
         '
         'tbConst
         '
+        Me.tbConst.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.tbConst.BackColor = System.Drawing.SystemColors.Control
-        Me.tbConst.Location = New System.Drawing.Point(6, 21)
+        Me.tbConst.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.tbConst.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tbConst.Location = New System.Drawing.Point(9, 21)
         Me.tbConst.Multiline = True
         Me.tbConst.Name = "tbConst"
-        Me.tbConst.Size = New System.Drawing.Size(202, 260)
+        Me.tbConst.Size = New System.Drawing.Size(200, 260)
         Me.tbConst.TabIndex = 0
         '
         'tbTfo
@@ -250,11 +263,12 @@ Partial Class SteelGeom_form
         '
         'btnCalcSteelGeom
         '
+        Me.btnCalcSteelGeom.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnCalcSteelGeom.Location = New System.Drawing.Point(532, 566)
         Me.btnCalcSteelGeom.Name = "btnCalcSteelGeom"
-        Me.btnCalcSteelGeom.Size = New System.Drawing.Size(75, 23)
+        Me.btnCalcSteelGeom.Size = New System.Drawing.Size(75, 31)
         Me.btnCalcSteelGeom.TabIndex = 2
-        Me.btnCalcSteelGeom.Text = "Calculate"
+        Me.btnCalcSteelGeom.Text = "Preview"
         Me.btnCalcSteelGeom.UseVisualStyleBackColor = True
         '
         'SteelGeom_form
@@ -262,14 +276,14 @@ Partial Class SteelGeom_form
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(700, 601)
-        Me.Controls.Add(Me.grpSteelDim)
-        Me.Controls.Add(Me.grpSteelConst)
-        Me.Controls.Add(Me.grpPrevSteelGeom)
+        Me.Controls.Add(Me.btnAddSteelGeom)
         Me.Controls.Add(Me.btnCancelSteelGeom)
         Me.Controls.Add(Me.btnCalcSteelGeom)
-        Me.Controls.Add(Me.btnAddSteelGeom)
+        Me.Controls.Add(Me.grpSteelDim)
+        Me.Controls.Add(Me.grpSteelConst)
         Me.Controls.Add(Me.tbName)
         Me.Controls.Add(Me.lbSteelGeomName)
+        Me.Controls.Add(Me.grpPrevSteelGeom)
         Me.Name = "SteelGeom_form"
         Me.Text = "Add steel geometry"
         Me.grpSteelConst.ResumeLayout(False)

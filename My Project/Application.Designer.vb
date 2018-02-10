@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.BriComp.Main_form
+            Me.MainForm = Global.BriComp.SteelGeom_form
         End Sub
     End Class
 End Namespace
