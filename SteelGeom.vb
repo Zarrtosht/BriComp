@@ -43,8 +43,8 @@
     End Sub
 
     Public Overridable Function addNode() As String
-        Main_form.Tree.Nodes(1).Nodes(0).Nodes.Add(Name)
-        Main_form.TextBox1.Text &= ">> New Steel Geometry added <<" & Environment.NewLine
+        Main_form.Tree.Nodes(2).Nodes(0).Nodes.Add(Name)
+        Main_form.TextBox1.Text &= ">> New Steel cross section added <<" & Environment.NewLine
 
     End Function
 End Class
